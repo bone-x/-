@@ -1,0 +1,43 @@
+@import '@/app.scss';
+.findPassword {
+    padding: 43px 73px 0;
+    height: 100%;
+    background: #fff;
+    .taro_img {
+        width: 160px;
+        height: 60px;
+        display: block;
+        border-radius: 5px;
+        pointer-events: none;
+    }
+    .button_send {
+        font-size:26px;
+        color: #999;
+        width:160px;
+        height:60px;
+        line-height: 60px;
+        background:#EDEDED;
+        border-radius:30px;
+        text-align: center;
+        &.avtive {
+            background:$theme;
+            color: #fff;
+        }      
+    }
+    .button_sure {
+        border: none;
+        margin-top: 61px;
+        background: #EDEDED;
+        color: #fff;
+        text-align: center;
+        width: 606px;
+        height: 90px;
+        line-height: 90px;
+        font-size:32px;
+        font-weight:500;
+    }
+    .actived {
+        color: #fff;
+        background-color: $theme;
+    }
+}

@@ -1,0 +1,209 @@
+.MyScore {
+    .head {
+        display: flex;
+        align-items: center;
+        font-size: 36px;
+        padding: 0 38px;
+        height: 97px;
+        border-bottom: 1px solid rgba(237, 237, 237, 1);
+
+        .score {
+            flex: 1;
+            text-align: center;
+
+            &:first-child {
+                text-align: left;
+            }
+
+            &:last-child {
+                font-size: 28px;
+                color: rgba(255, 120, 71, 1);
+                text-align: right;
+            }
+        }
+    }
+
+    .body {
+        padding-top: 97px;
+        margin: 0px 36px 0 36px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        .ScoleList {
+            margin-top: 30px;
+            border-radius: 6px;
+            padding: 31px 36px;
+            background: rgba(222, 189, 131, 1);
+            font-size: 22px;
+            color: rgba(122, 85, 11, 1);
+            display: flex;
+
+            .left,
+            .right {
+                flex: 1;
+                padding-left: 36px;
+
+                .todayScore,
+                .NumScore {
+                    color: rgba(51, 51, 51, 1);
+                    font-size: 60px;
+                }
+            }
+
+            .left {
+                border-right: 2px solid rgba(196, 163, 95, 1);
+            }
+        }
+
+        .content {
+            .title {
+                margin-top: 48px;
+                margin-bottom: 24px;
+                font-size: 30px;
+                color: rgba(51, 51, 51, 1);
+            }
+
+            .tabs {
+                display: flex;
+                color: rgba(102, 102, 102, 1);
+                font-size: 24px;
+
+                .tab {
+                    width: 70%;
+                    display: flex;
+
+                    .Hot {
+                        flex: 1;
+                        text-align: center;
+                        background: rgba(242, 242, 242, 1);
+                        border-radius: 24px;
+                        height: 48px;
+                        line-height: 48px;
+                        margin-right: 18px;
+                        position: relative;
+
+                        .txt {
+                            padding-right: 10px;
+                        }
+
+                        .Upsanjiao {
+                            width: 0;
+                            height: 0;
+                            border-width: 0 8px 8px;
+                            border-style: solid;
+                            border-color: transparent transparent #333;
+                            /*透明 透明  灰*/
+                            position: absolute;
+                            top: 30%;
+
+                            &.Upactive {
+                                border-color: transparent transparent red;
+                                /*透明 透明  灰*/
+                            }
+                        }
+
+                        .Downsanjiao {
+                            width: 0;
+                            height: 0;
+                            border-width: 8px 8px 0;
+                            border-style: solid;
+                            border-color: #333 transparent transparent;
+                            /*灰 透明 透明 */
+                            position: absolute;
+                            top: 60%;
+
+                            &.Upactive {
+                                border-color: red transparent transparent;
+                                /*透明 透明  灰*/
+                            }
+                        }
+                    }
+                }
+
+                .change {
+                    display: flex;
+                    text-align: right;
+                    flex: 1;
+                    height: 48px;
+                    line-height: 48px;
+                    font-size: 24px;
+                    font-weight: 400;
+                    color: rgba(102, 102, 102, 1);
+                    justify-content: flex-end;
+
+                    .changeBtn {
+                        display: block;
+                        margin-right: 11px;
+                        font-size: 42px;
+                        color: rgba(242, 242, 242, 1);
+
+                    }
+
+                    .changeWord {
+                        display: block;
+                        height: 48px;
+                        line-height: 48px;
+                    }
+                }
+            }
+
+            .list {
+                margin-top: 12px;
+                .childBox {
+                    margin-top: 12px;
+
+                    .priceBox {
+                        height: 30px;
+                        font-size: 22px;
+
+                        .newPrice {
+                            font-size: 22px;
+                            font-weight: 400;
+                            color: rgba(153, 153, 153, 1);
+                        }
+
+                        .oldPrice {
+                            font-size: 22px;
+                            font-weight: 400;
+                            text-decoration: line-through;
+                            color: rgba(153, 153, 153, 1);
+                            line-height: 24px;
+                        }
+                    }
+
+                    .btnBox {
+                        height: 54px;
+                        display: flex;
+                        position: absolute;
+                        width: 100%;
+                        bottom: 5px;
+
+                        .btnBoxLeft {
+                            flex: 1;
+                            width: 91px;
+                            height: 54px;
+                            line-height: 54px;
+                            font-size: 22px;
+                            font-weight: 400;
+                            color: rgba(153, 153, 153, 1);
+                        }
+
+                        .btnBoxRight {
+                            width: 132px;
+                            height: 54px;
+                            line-height: 54px;
+                            background: #ffece6;
+                            border-radius: 27px;
+                            text-align: center;
+                            font-size: 26px;
+                            font-weight: 400;
+                            color: rgba(255, 90, 31, 1);
+                        }
+                    }
+                }
+
+
+            }
+        }
+    }
+}

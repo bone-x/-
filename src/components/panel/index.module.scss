@@ -1,0 +1,180 @@
+.panelBox {
+    width: 100%;
+    height: auto;
+    padding: 45px 36px;
+
+    .panelTitle {
+        height: 34px;
+        font-size: 36px;
+        line-height: 36px;
+        font-weight: 500;
+        color: rgba(51, 51, 51, 1);
+        margin-bottom: 12px;
+    }
+
+    .panelList {
+        margin-top: 12px;
+
+
+        .childBox {
+            margin-top: 12px;
+
+            .priceBox {
+                height: 30px;
+                font-size: 22px;
+
+                .newPrice {
+                    font-size: 22px;
+                    font-weight: 400;
+                    color: rgba(153, 153, 153, 1);
+                }
+
+                .oldPrice {
+                    font-size: 22px;
+                    font-weight: 400;
+                    text-decoration: line-through;
+                    color: rgba(153, 153, 153, 1);
+                    line-height: 24px;
+                    margin-left: 12px;
+                }
+            }
+
+            .btnBox {
+                height: 54px;
+                display: flex;
+                position: absolute;
+                width: 100%;
+                bottom: 5px;
+
+                .btnBoxLeft {
+                    flex: 1;
+                    width: 91px;
+                    height: 54px;
+                    line-height: 54px;
+                    font-size: 22px;
+                    font-weight: 400;
+                    color: rgba(153, 153, 153, 1);
+                }
+
+                .btnBoxRight {
+                    width: 132px;
+                    height: 54px;
+                    line-height: 54px;
+                    background: #ffece6;
+                    border-radius: 27px;
+                    text-align: center;
+                    font-size: 26px;
+                    font-weight: 400;
+                    color: rgba(255, 90, 31, 1);
+                }
+            }
+        }
+
+        .childBox1 {
+            margin-top: 12px;
+
+            .wordBox {
+                margin-top: 24px;
+                font-size: 22px;
+                font-family: PingFang-SC-Regular;
+                font-weight: 400;
+                color: rgba(102, 102, 102, 1);
+
+                .studentNum {
+                    margin-left: 41px;
+                }
+            }
+
+            .priceBox {
+                margin-top: 6px;
+                height: 40px;
+                font-size: 22px;
+
+                .newPrice {
+                    font-size: 24px;
+                    font-family: PingFang-SC-Regular;
+                    font-weight: 400;
+                    color: rgba(102, 102, 102, 1);
+                    line-height: 40px;
+                }
+
+                .oldPrice {
+                    font-size: 18px;
+                    font-family: PingFang-SC-Regular;
+                    font-weight: 400;
+                    text-decoration: line-through;
+                    color: rgba(153, 153, 153, 1);
+                    line-height: 40px;
+                    margin-left: 12px;
+                }
+
+                .tag {
+                    padding: 5px 10px;
+                    display: inline-block;
+                    // height: 30px;
+                    background: rgba(255, 231, 221, 1);
+                    border: 1px solid rgba(235, 97, 0, 1);
+                    border-radius: 4px;
+                    // line-height: 30px;
+                    margin-right: 18px;
+                    font-size: 18px;
+                    font-family: PingFang-SC-Medium;
+                    font-weight: 500;
+                    color: rgba(255, 90, 31, 1);
+                }
+            }
+        }
+    }
+
+    .jumpBox {
+        width: 100%;
+        font-size: 28px;
+        font-family: PingFang-SC-Regular;
+        font-weight: 400;
+        color: rgba(255, 90, 31, 1);
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .noCourse {
+        width: 100%;
+        height: auto;
+        text-align: center;
+
+        .noImage {
+            width: 288px;
+            // height: 288px;
+            margin-top: 150px;
+        }
+
+        .noContent {
+            // margin-top: 13px;
+            margin-bottom: 200px;
+
+            .noContent1 {
+                font-size: 28px;
+                font-family: PingFang-SC-Regular;
+                font-weight: 400;
+                color: rgba(60, 61, 65, 1);
+            }
+
+            .noContent2 {
+                font-size: 22px;
+                font-family: PingFang-SC-Regular;
+                font-weight: 400;
+                text-decoration: underline;
+                color: rgba(255, 90, 31, 1);
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .shoping {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        height: 100px;
+        position: relative;
+        margin-top: 12px;
+    }
+}

@@ -1,0 +1,27 @@
+
+    .car{
+        background:rgba(237,237,237,1);
+        height:100vh;
+        .bgDark{
+            background:rgba(237,237,237,1);
+            height:100%;
+        }
+        .bgWhite{
+            background:#fff;
+            height:100%;
+        }
+
+    .head{
+        position:fixed;
+        top:0;
+        left:0;
+        width:100%;
+        background:#ffffff;
+        z-index:100;
+    }
+    .body{  height:100%;
+            box-sizing:border-box;
+            padding-top:97px;
+            padding-bottom:98px;
+        }
+    }

@@ -1,0 +1,209 @@
+
+.CarList{
+    background:rgba(237,237,237,1);
+    height:100vh;
+    .listItem{
+        margin-bottom:25px;
+    }
+    .iconfont{
+        font-size:35px;
+        color:#999999;
+        &.iconxuanzhong{
+            color:#ff5a1f;
+        }
+    }
+
+    .cantBuy{
+        .noSale{
+            color:rgba(153,153,153,1);
+        }
+    }
+    .header{
+        height:88px;
+        display:flex;
+        align-items:center;
+        border-bottom:1px solid #EDEDED;
+        padding-left:18px;
+        background:#ffffff;
+        // .taro-checkbox_checked {
+        //     width:30px;
+        //     height:30px;  
+        //     font-size:30px; 
+        //     color:#ff5a1f;    
+        //     top:-2px;
+        // }
+        // .checkbox {
+        //     width:30px;
+        //     height:30px;  
+        //     font-size:30px; 
+        //     color:#ff5a1f;    
+        //     top:-2px;
+        // }
+        .require{
+            font-size:26px;
+            font-weight:400;
+        }
+        .Normal{
+            font-size:18px;
+            padding:5px 15px; 
+            // &.noSale{
+            //     color:rgba(153,153,153,1);
+            // }
+        }
+        .tag{
+            margin:0 18px;
+            padding:5px 15px; 
+            font-size:18px;
+            text-align:center;
+            background:rgba(255,231,221,1);
+            border:1px solid rgba(235,97,0,1);
+            border-radius:4px;
+            color:rgba(255,90,31,1);
+            span{
+                display:flex;
+                align-items:center;
+                justify-content:center;
+            }
+        }
+       
+    }
+    .cantBuy{
+        color:rgba(153,153,153,1);
+       .list{
+            .date,.price_score{
+                color:rgba(153,153,153,1);
+            }
+            .originPrice{
+                text-decoration:line-through;
+                padding-left:20px;
+                font-size:18px;
+            }
+       }
+    }
+    .list{
+        width:100%;
+        background:#ffffff;
+        // display:flex;
+        // padding:24px 18px;
+        font-size:26px;
+        .selectBtn{
+           display:flex;
+           align-items: center;
+           text-align: center;
+           .taro-checkbox_checked {
+               width:30px;
+               height:30px;  
+               font-size:30px; 
+               color:#ff5a1f;
+               top:0;               
+           }
+        }
+        .img{ 
+            padding:0 18px;
+            & .taro-img{
+                width:300px;
+                height:168px;
+            }
+        }
+        .title{
+            width:280px;
+        }
+        .date,.price_score{
+            font-size:22px;
+            font-weight:400;
+            color:rgba(102,102,102,1);
+            .price{
+                font-size:24px;
+                color:rgba(102,102,102,1);
+            }
+            &.noSale{
+                color:rgba(153,153,153,1);
+            }
+        }
+        .date{
+            padding:10px 0;
+            font-size:22px;
+        }
+        & .price_score{
+            .need_score{
+                padding-left:13px;
+                color:rgba(153,153,153,1);
+                font-size:18px;
+            }
+        }
+    }
+    // .limit_second,.cantBuy{
+    //     margin-top:25px;
+    // }
+    & .foot{
+        position:fixed;
+        bottom:0;
+        left:0;
+        width:100%;
+        background:#ffffff;
+    }
+    
+.footer{
+    height:98px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:22px;
+    padding-left:18px;
+    color:rgba(102,102,102,1);
+    // .taro-checkbox_checked {
+    //     width:30px;
+    //     height:30px;  
+    //     font-size:30px; 
+    //     color:#ff5a1f !important;
+    //     top:6px;    
+    //     margin-right:15px;           
+    // }
+    // .at-button--primary{
+    //     margin:0;
+    //     border-radius:0;
+    //     margin-left:17px;
+    //     padding:0 50px;
+    // }
+    & .left{
+        font-size:28px;
+        color:rgba(102,102,102,1);
+        & .iconfont{
+            padding-right:10px;
+        }
+    }
+    & .right{
+        display:flex;
+        align-items:center;
+        .goToPay{
+            width:226px;
+            text-align:center;
+            background:#FF7847;
+            height:98px;
+            line-height:98px;
+            font-size:30px;
+            margin-left:23px;
+            color:#fff;
+        }
+        .goToPayDark{
+            width:226px;
+            text-align:center;
+            background:#999;
+            height:98px;
+            line-height:98px;
+            font-size:30px;
+            margin-left:23px;
+            color:#fff;
+        }
+        .count{
+            & .price{
+                color:#ff5a1f;
+            }
+        }
+        .save_price{
+            text-align:right;
+            color:#ff5a1f;
+        }
+    }
+}
+}

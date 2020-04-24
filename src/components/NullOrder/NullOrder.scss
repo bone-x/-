@@ -1,0 +1,21 @@
+.NullCar{
+    background:#fff;
+    height:100%;
+    padding:138px 72px 0 72px;
+    text-align:center;
+    // margin-top:138px;
+    .img{
+        height:288px;
+        width:288px;
+    }
+    .txt{
+        font-size:28px;
+        color:rgba(102,102,102,1);
+        text-align:center;
+        margin-bottom:48px;
+    }
+    .at-button{
+        font-size:28px;
+        font-weight:bold;
+    }
+}

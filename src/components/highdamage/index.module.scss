@@ -1,0 +1,75 @@
+.feed{
+    .item {
+        display: flex;
+        flex-direction:column;
+        margin-right: 18px;
+        width:132px;
+        padding: 16px 0;
+        background:rgba(242,242,242,1);
+        border-radius:4px;
+        text-align: center;
+        line-height: 1;
+        
+        .text {
+            margin: auto;
+            width:100%;
+            height: auto;
+            font-size:18px;
+            font-family:PingFang-SC-Regular;
+            font-weight:400;
+            color:#999;
+            margin-bottom: 8px;
+        }
+        .time {
+            margin: auto;
+            width:100%;
+            height: auto;
+            font-size:26px;
+            font-family:PingFang-SC-Bold;
+            font-weight:bold;
+            color:rgba(153,153,153,1);
+        }
+        .img {
+            display: none;
+        }
+    }
+    .item1 {
+        position: relative;
+        display: flex;
+        flex-direction:column;
+        width:132px;
+        padding: 14px 0;
+        line-height: 1;
+        background:#FFEFE9;
+        border-radius:4px;
+        text-align: center;
+        border: 2px solid rgba(255,90,31,0.5);
+        color: #FF5A1F;
+        margin-right: 18px;
+        .text {
+            margin: auto;
+            width:100%;
+            height: auto;
+            font-size:18px;
+            font-family:PingFang-SC-Regular;
+            font-weight:400;
+            margin-bottom: 8px;
+        }
+        .time {
+            margin: auto;
+            width:100%;
+            height: auto;
+            font-size:26px;
+            font-family:PingFang-SC-Bold;
+            font-weight:bold;
+        }
+        .img {
+            display: block;
+            width: 10px;
+            height: 8px;
+            position: absolute;
+            bottom:-8px;
+            left: 60px;
+        }
+    }
+}

@@ -1,0 +1,123 @@
+.GroupBooking {
+    position   : relative;
+    padding-top: 90px;
+
+    .tabs {
+        display  : flex;
+        color    : rgba(102, 102, 102, 1);
+        font-size: 24px;
+        margin   : 20px 0 0 33px;
+
+        .tab {
+            width  : 70%;
+            display: flex;
+
+            .Hot {
+                flex         : 1;
+                text-align   : center;
+                background   : rgba(242, 242, 242, 1);
+                border-radius: 24px;
+                height       : 48px;
+                line-height  : 48px;
+                margin-right : 18px;
+                position     : relative;
+
+                .txt {
+                    padding-right: 10px;
+                }
+
+                .Upsanjiao {
+                    width       : 0;
+                    height      : 0;
+                    border-width: 0 8px 8px;
+                    border-style: solid;
+                    border-color: transparent transparent #333;
+                    /*透明 透明  灰*/
+                    position: absolute;
+                    top     : 30%;
+
+                    &.Upactive {
+                        border-color: transparent transparent red;
+                        /*透明 透明  灰*/
+                    }
+                }
+
+                .Downsanjiao {
+                    width       : 0;
+                    height      : 0;
+                    border-width: 8px 8px 0;
+                    border-style: solid;
+                    border-color: #333 transparent transparent;
+                    /*灰 透明 透明 */
+                    position: absolute;
+                    top     : 60%;
+
+                    &.Upactive {
+                        border-color: red transparent transparent;
+                        /*透明 透明  灰*/
+                    }
+                }
+            }
+        }
+
+        .change {
+            display        : flex;
+            text-align     : right;
+            flex           : 1;
+            height         : 48px;
+            line-height    : 48px;
+            font-size      : 24px;
+            font-weight    : 400;
+            color          : rgba(102, 102, 102, 1);
+            justify-content: flex-end;
+
+            .changeBtn {
+                display     : block;
+                margin-right: 11px;
+                font-size   : 42px;
+                color       : rgba(242, 242, 242, 1);
+
+            }
+
+            .changeWord {
+                display    : block;
+                height     : 48px;
+                line-height: 48px;
+            }
+        }
+    }
+
+    .price {
+        font-size: 22px;
+        color    : rgba(153, 153, 153, 1);
+
+        .OnSalse {
+            text-decoration: line-through;
+            padding-left   : 18px;
+        }
+
+        .goGroup {
+            background   : rgba(255, 120, 71, 0.12);
+            border-radius: 27px;
+            padding      : 8px 22px;
+            color        : rgba(255, 120, 71, 1);
+            position     : absolute;
+            right        : 20px;
+            bottom       : 30px;
+            font-size    : 26px;
+            z-index      : 10;
+        }
+
+    }
+
+    .blank {
+        text-align : center;
+        padding-top: 80px;
+        font-size  : 28px;
+        color      : rgba(102, 102, 102, 1);
+
+        .img {
+            width: 40%;
+        }
+    }
+}

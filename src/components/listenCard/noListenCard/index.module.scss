@@ -1,0 +1,21 @@
+.noListenCard {
+  width: 100%;
+  text-align: center;
+
+  .imgBox {
+    width: 288px;
+    height: 288px;
+    display: block;
+    margin: 214px auto 0 auto;
+
+    .img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .noText {
+    font-size: 26px;
+    color: #666666FF;
+  }
+}

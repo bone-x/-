@@ -1,0 +1,141 @@
+ .learningCenter {
+   .consult {
+     position: absolute;
+     top: 49%;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 24px;
+     font-family: PingFang-SC-Regular;
+     font-weight: 400;
+     color: rgba(60, 61, 65, 1);
+     z-index: 1001;
+   }
+
+   :global {
+
+     .at-tabs__header {
+       height: 88px;
+     }
+
+     .at-tabs__item {
+       background-color: #fff;
+       font-size: 32px;
+       text-align: right;
+     }
+
+     .at-tabs__item:nth-last-child(1) {
+       text-align: left;
+     }
+
+     .at-tabs__item-underline {
+       height: 0;
+     }
+
+     .at-tabs__item--active {
+       color: #FF7847;
+     }
+
+     .at-tabs__item-underline {
+       height: 0;
+     }
+
+     .at-modal__header {
+       position: static;
+       font-size: 32px;
+       font-family: PingFang-SC-Medium;
+       font-weight: 500;
+       color: rgba(60, 61, 65, 1);
+     }
+
+     .at-modal__footer {
+       height: 96px;
+
+       .at-modal__action {
+         button {
+           height: 96px;
+           line-height: 96px;
+           font-size: 32px;
+           border-left: 1px solid #ededed;
+         }
+
+         button:nth-child(1) {
+           border-left: 0;
+         }
+       }
+     }
+
+     .at-modal__content {
+       padding: 20px 0 32px 0;
+       min-height: 120px;
+       text-align: center;
+       font-size: 24px;
+       font-family: PingFang-SC-Regular;
+       font-weight: 400;
+       color: rgba(60, 61, 65, 1);
+     }
+
+     .candel {
+       border-left: 1px solid #000;
+     }
+
+     .at-modal__container {
+       width: 600px;
+       border-radius: 16px;
+     }
+
+     .weui-btn_default {
+       font-size: 32px;
+     }
+
+     .option__text:before {
+       content: "\e608";
+       font-family: "iconfont" !important;
+       font-style: normal;
+       -webkit-font-smoothing: antialiased;
+       -moz-osx-font-smoothing: grayscale;
+       width: 36px;
+       font-size: 36px;
+       color: #999;
+       padding-left: 26px;
+       border-left: 4px solid #f2f2f2;
+     }
+
+     .at-rate {
+       display: inline-block;
+       padding-top: 7px;
+     }
+
+     .learn_tabs_item {
+       font-size: 24px;
+       height: 48px;
+       text-align: center;
+       line-height: 48px;
+       background: rgba(242, 242, 242, 1);
+       border-radius: 24px;
+     }
+
+     .learn_tabs_item:nth-last-child(1) {
+       margin-right: 0;
+     }
+
+     .frozen {
+       color: #999 !important;
+     }
+
+     .iconsanjiaojiantoushang {
+       position: absolute;
+       top: -7px;
+       padding-left: 12px;
+       font-size: 20px;
+     }
+
+     .icondown-copy {
+       position: absolute;
+       font-size: 20px;
+       padding-left: 12px;
+       bottom: -6px;
+     }
+   }
+ }

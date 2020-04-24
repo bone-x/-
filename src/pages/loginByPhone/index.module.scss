@@ -1,0 +1,95 @@
+@import '@/app.scss';
+
+.login {
+    padding   : 60px 73px 0;
+    height    : 100%;
+    background: #fff;
+
+    .title {
+        margin    : 0 0 30px;
+        text-align: center;
+
+        .icon {
+            color    : $theme;
+            font-size: 53px;
+        }
+    }
+    .PhoneCode{
+        position: relative;
+        .input {
+            height: 120px;
+            line-height: 120px;
+            vertical-align: middle;
+            font-size: 32px;
+            border-bottom: 1px solid #EDEDED;
+            input {
+                height: 120px;
+                line-height: 120px;
+            }
+        }
+        .getPhoneCode{
+            font-size: 22px;
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 17px 16px 18px 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 160px;
+            height: 60px;
+            background: rgba(237, 237, 237, 1);
+            border-radius: 30px;
+        }
+        .isActive{
+            background-color        : #ff7847;
+            color        : #fff;
+        }
+    }
+    
+
+    .button_sure {
+        margin-top   : 61px;
+        background   : #EDEDED;
+        color        : #fff;
+        text-align   : center;
+        width        : 606px;
+        height       : 90px;
+        line-height  : 90px;
+        font-size    : 32px;
+        font-weight  : 500;
+        border-radius: 18px;
+        margin-bottom: 20px;
+        border       : 0px;
+
+        &.actived {
+            background: $theme;
+            color     : #fff;
+        }
+    }
+
+    .button_register {
+        border-radius: 18px;
+        border       : 1px solid #ff7847;
+        color        : #ff7847;
+    }
+    .button_forget_password{
+        margin-top: 50px;
+    }
+    .subscript {
+        color    : #666;
+        font-size: 26px;
+
+        &.rightSide {
+            float: right;
+        }
+
+        &.leftSide {
+            float: left;
+        }
+    }
+
+}
+
+:global {}

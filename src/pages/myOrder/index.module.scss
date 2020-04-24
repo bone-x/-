@@ -1,0 +1,212 @@
+.MyOrder {
+    background:rgba(237,237,237,1);
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+   .header{
+       display:flex;
+       height:100px;
+       line-height:100px;
+       position:fixed;
+       top:0;
+       left:0;
+       width:100%;
+       background:#fff;
+       border-bottom:1px solid rgba(237,237,237,1);
+       z-index:102;
+       .list{
+           flex:1;
+           font-size:28px;
+           text-align:center;
+           &.active{
+                color:rgba(255,120,71,1);
+           }
+           .num{
+                position:relative;
+                right:-3px;
+                top:-15px;
+                display:inline-block;
+                width:30px;
+                height:30px;
+                line-height:30px;
+                font-size:20px;
+                color:#fff;
+                background:linear-gradient(0deg,rgba(255,64,64,1) 0%,rgba(255,114,91,1) 100%);
+                box-shadow:0px 2px 9px 0px rgba(255,105,86,0.42);
+                border-radius:13px;
+           }
+       }
+   }
+   .body{
+    .All{
+        // background:rgba(237,237,237,1);
+        padding-top:100px;
+        .content-simple{
+            text-align:center;
+        }
+        .at-float-layout--active{
+            .at-float-layout__container{
+                border-radius:16px 16px 0px 0px;
+                min-height:350px;
+                max-height:350px;
+                height:350px;
+                .at-float-layout .layout-body{
+                    padding-top:10px;
+                }
+                .title{
+                    text-align:center;
+                    font-size:36px;
+                    color:rgba(51,51,51,1);
+                }
+                .content{
+                    .price{
+                        display:flex;
+                        justify-content:space-between;
+                        padding:0 38px;
+                        height:70px;
+                        line-height:70px;
+                        .real_price{
+                           color:rgba(255,120,71,1);
+                           padding-right:18px;
+                           font-size:36px;
+                        }
+                    }
+                    .btns{
+                        position:absolute;
+                        bottom:0;
+                        left:0;
+                        border:0;
+                        background:rgba(255,120,71,1);
+                        color:#fff;
+                        border-radius:0;
+                    }
+                }
+            }
+        }
+        .downBox{
+            height:100px;
+        }
+        .list{
+            .save{
+                background:#fff;             
+                .savePrice{
+                    display:flex;
+                    justify-content:space-between;
+                    background:rgba(255,253,233,1);
+                    font-size:22px;
+                    color:rgba(51,51,51,1);
+                    padding:15px 10px;
+                    margin:0 10px;
+                }
+            }
+            .itemGood{
+                margin-bottom:25px;
+                &:last-child{
+                    margin:0;
+                }
+            }
+            .activeName{
+                font-size:18px;
+                margin-top:18px;
+                & .active{
+                    padding:8px 20px;
+                    background:rgba(255,231,221,1);
+                    border:1px solid rgba(235,97,0,1);
+                    border-radius:4px;
+                    color:rgba(255,90,31,1);
+                }
+                & .price{
+                    font-size:24px;
+                    color:rgba(51,51,51,1);
+                    padding:0 12px 0 0;                   
+                }
+                & .real_price{
+                    color:rgba(153,153,153,1);
+                    text-decoration:line-through;
+                }
+                & .back_money{
+                    color:rgba(255,120,71,1);
+                    font-size:22px;
+                    position:absolute;
+                    right:0;
+                    bottom:0;
+                    right:36px;
+                }
+            }
+           & .head{
+            font-size:26px;
+            display:flex;
+            justify-content:space-between;
+            padding:20px 20px 0 20px;
+            height:72px;
+            .order{
+                padding-right:10px;
+            }
+            background:#fff;
+            .time{
+                .detailTime{
+                    padding-left:30px;
+                }
+            }
+            .status{
+                color:rgba(255,120,71,1);
+            }
+           }
+        }
+        .detail{
+            background:#fff;
+            padding-top:5px;
+            .statusEvent{
+                border-top:1px solid #f2f2f2;
+                text-align:right;
+                font-size:26px;
+                color:rgba(102,102,102,1);
+                height:100px;
+                line-height:100px;
+                margin:0 20px;
+                .request,.goPayFor{
+                    padding:10px 20px;
+                    border:1px solid rgba(179,179,179,1);
+                    border-radius:27px;
+                    box-sizing:border-box;
+                }
+                .goPayFor{
+                    margin-left:30px;
+                    background:rgba(255,239,233,1);
+                    color:rgba(255,120,71,1);
+                    border:0
+                }
+            }
+            .foot{
+                margin:0 20px;
+                background:#fff;
+                display:flex;
+                color:rgba(51,51,51,1);
+                font-size:22px;
+                justify-content:space-between;
+                align-items:center;
+                padding-bottom:15px;
+                .price_save{
+                    font-size:22px;
+                    color:rgba(51,51,51,1);
+                    .time{
+                        // color:rgba(255,120,71,1);
+                        // padding-left:15px;
+                    }
+                }
+                .real_pay{
+                    .price{
+                        font-size:32px;
+                        color:rgba(51,51,51,1);
+                    }
+                }
+            }
+        }
+    }
+   }
+   .load{  
+     text-align:center;
+    //  background:#fff;
+    padding:15px 0;
+   }
+}

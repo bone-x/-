@@ -1,0 +1,21 @@
+@import '@/styles/variable.scss';
+.wrap {
+  height: 96px;
+  line-height: 96px;
+  font-size: 30px;
+  color: $text-color;
+}
+.icon {
+  font-size: 36px;
+  margin-right: 18px;
+}
+.check {
+  color: #DBDBDB;
+  float: right;
+  font-size: 30px;
+}
+.checked {
+  float: right;
+  color: $primary-color;
+  font-size: 30px;
+}

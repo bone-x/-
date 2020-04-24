@@ -1,0 +1,65 @@
+@import '@/styles/variable.scss';
+@import '@/styles/mixins.scss';
+.wrap {
+  // height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.submitOrder {
+  flex: 1;
+}
+.order {
+  font-size: 28px;
+  color: $text-color;
+  padding-left: 36px;
+  padding-right: 36px;
+  height: 96px;
+  line-height: 96px;
+  background-color: $white;
+  @include text-ellipsis();
+}
+.payOption {
+  margin-top: 18px;
+  font-size: 28px;
+  padding-left: 36px;
+  padding-right: 36px;
+  background-color: $white;
+}
+.payType {
+  height: 96px;
+  line-height: 96px;
+  border-bottom: 1px solid $border-color;
+}
+.submitWrap {
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: center;
+  text-align: center;
+}
+.submit {
+  width: 534px;
+  height: 96px;
+  margin: 55px auto 29px;
+}
+.tips {
+  font-size: 22px;
+}
+.tipsText {
+  color: $text-color-lighter;
+}
+.tipsAgreement {
+  color: $text-color;
+}
+.customer {
+  width: 100%;
+  font-size: 22px;
+  color: $text-color-lighter;
+  // position: absolute;
+  // bottom: 50px;
+  text-align: center;
+  margin-top: 44px;
+  padding: 44px 0 100px 0;
+}
+.customerLink {
+  color: $primary-color;
+}

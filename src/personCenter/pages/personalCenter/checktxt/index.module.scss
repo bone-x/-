@@ -1,0 +1,22 @@
+.checktxt {
+  .title {
+    position: relative;
+    text-align: center;
+    font-size: 34px;
+    color:#333;
+    width: 100%;
+    height: 88px;
+    line-height: 88px;
+    border-bottom: 2px solid #EDEDED;
+  }
+  .txt {
+    padding: 31px 36px 35px 36px;
+    font-size:28px;
+    font-family:PingFang-SC-Regular;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+  }
+}

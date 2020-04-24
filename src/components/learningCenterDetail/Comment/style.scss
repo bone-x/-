@@ -1,0 +1,122 @@
+.review {
+  width: 100%;
+  background-color: #F2F2F2;
+  margin-bottom: 160px;
+}
+
+
+.my-comment {
+  padding: 36px;
+  box-sizing: border-box;
+  background: #fff;
+  border-bottom: 18px solid rgba(242, 242, 242, 1);
+
+  .title-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .title {
+      font-size: 32px;
+    }
+
+    .action {
+      display: flex;
+      align-items: center;
+      font-size: 28px;
+      color: #666;
+
+      .iconfont {
+        font-size: 32px;
+        color: #FF7847;
+        margin-right: 20px;
+      }
+    }
+  }
+
+
+  .eidt-box {
+    .tit {
+      font-size: 28px;
+      color: #999;
+      margin-right: 30px;
+    }
+
+    .stars-box {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin: 24px 0;
+
+      .right-box {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        .current {
+          color: #999999;
+          font-size: 32px;
+          margin: 0 20px;
+        }
+
+        .total {
+          font-size: 22px;
+          color: #999;
+        }
+      }
+    }
+
+    .tag-box {
+      display: flex;
+      justify-content: flex-start;
+      // align-items: center;
+
+      .right-box {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+
+      }
+    }
+
+    .action-box {
+      margin-top: 30px;
+      display: flex;
+      justify-content: flex-start;
+      width: 150px;
+      height: 66px;
+
+      .sub-btn {
+        font-size: 26px;
+        width: 150px;
+        height: 66px;
+        background: rgba(255, 120, 71, 1);
+        border: 2px solid rgba(255, 120, 71, 1);
+        border-radius: 6px;
+      }
+    }
+  }
+  .comment-box{
+    height: 180px;
+  }
+
+  .comment-read-only {
+    font-size: 28px;
+    white-space: pre-line;
+  }
+
+  .no-comment-box {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: 0 auto;
+
+    .tit {
+      font-size: 28px;
+      color: #FF7847;
+      margin-bottom: 20px;
+    }
+  }
+}

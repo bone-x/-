@@ -1,0 +1,71 @@
+.customSearchBar {
+    $title-color: #333333;
+    $info-color: #666666;
+    $desc-color: #999999;
+    $active-color: #ff5a1f;
+    $tag-bg-color: #ffe7dd;
+
+    font-size: 24px;
+    .searchForm {
+        display: flex;
+        // height: 72px;
+        // line-height: 72px;
+        align-items: flex-start;
+        vertical-align: top;
+        .searchInputBox {
+            position: relative;
+            display: inline-flex;
+            flex: 1;
+            height: 72px;
+            line-height: 72px;
+            width: 594px;
+            border: 1px solid $active-color;
+            border-radius: 36px;
+            color: $title-color;
+
+            .searchIcon {
+                position: absolute;
+                top: 0;
+                left: 0;
+                margin-left: 30px;
+                font-size: 32px;
+                :global {
+                    .iconfont {
+                        font-size: inherit;
+                    }
+                }
+                .icon {
+                    &::before {
+                        content: '\e600';
+                    }
+                }
+            }
+
+            .searchInput {
+                display: block;
+                height: 100%;
+                width: 100%;
+                padding: 0 82px;
+                caret-color: $active-color;
+            }
+
+            .searchClear {
+                display: none;
+                position: absolute;
+                right: 22px;
+                font-size: 42px;
+                z-index: 2;
+                color: #B8B8B8;
+            }
+        }
+
+        .searchBtn {
+            display: inline-flex;
+            margin-left: 30px;
+            height: 72px;
+            line-height: 72px;
+            font-size: 28px;
+            color: $active-color;
+        }
+    }
+}

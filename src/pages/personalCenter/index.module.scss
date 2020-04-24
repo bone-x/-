@@ -1,0 +1,186 @@
+.personalCenter {
+  padding-bottom: 80px;
+
+  .photo {
+    position: relative;
+
+    .bgImg {
+      height: 342px;
+      width : 100%;
+    }
+
+    .maskView {
+      height          : 342px;
+      width           : 100%;
+      background-color: rgba(0, 0, 0, 0);
+      position        : absolute;
+      top             : 0px;
+      left            : 0px;
+    }
+
+    .picture {
+      position : absolute;
+      left     : 50%;
+      top      : 50%;
+      transform: translate(-50%, -50%);
+      margin   : 0 auto;
+
+      .myAvatar {
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        width          : 300px;
+        height         : 142px;
+        margin-bottom  : 16px;
+        pointer-events : none;
+
+        .avatarImg {
+          height       : 142px;
+          width        : 142px;
+          border-radius: 50%;
+        }
+      }
+
+      .text {
+        display    : flex;
+        font-size  : 32px;
+        font-family: PingFang-SC-Bold;
+        text-align : center;
+        line-height: 30px;
+        display    : block;
+        color      : #333333;
+        font-weight: 600;
+      }
+
+      .mask {
+        background: rgba(0, 0, 0, 0.4) !important;
+        z-index   : 10;
+        height    : 100px;
+        position  : fixed;
+        width     : 100%;
+      }
+
+      .selectMask_box {
+        background: rgba(0, 0, 0, 0);
+        transition: all .2s linear
+      }
+    }
+
+    .changePhoto {
+      position   : absolute;
+      left       : 670px;
+      top        : 0px;
+      padding-top: 35px;
+      font-size  : 16px;
+      font-weight: normal;
+      height     : 90px;
+      line-height: 40px;
+      text-align : right;
+
+      .shadow {
+        width           : 30px;
+        height          : 26px;
+        margin          : 0 auto;
+        line-height     : 31px;
+        background-color: #FF725B;
+        border-radius   : 50%;
+        position        : absolute;
+        top             : 20px;
+        left            : 22px;
+        box-shadow      : 0px 0px 3px 3px #FF725B;
+
+        .message {
+          width           : 25px;
+          height          : 20px;
+          border-radius   : 50%;
+          line-height     : 28px;
+          margin          : 0 auto;
+          background-color: #FF725B;
+          text-align      : center;
+
+          .msgNum {
+            font-size    : 18px;
+            display      : inline-block;
+            border-radius: 50%;
+            color        : #fff;
+            font-family  : PingFang-SC-Medium;
+          }
+        }
+      }
+
+    }
+  }
+
+  .mine {
+    width        : 100%;
+    font-size    : 20px;
+    margin-bottom: 30%;
+
+    .order {
+      height         : 120px;
+      line-height    : 115px;
+      margin         : 0 36px;
+      display        : flex;
+      justify-content: space-between;
+
+      .myText {
+        color      : #333333;
+        font-size  : 28px;
+        font-family: PingFang-SC-Medium;
+      }
+
+      .iconright {
+        font-size  : 28px;
+        color      : #999999;
+        margin-left: 4px;
+      }
+    }
+
+    .orderData {
+      height         : 120px;
+      line-height    : 115px;
+      border-bottom  : 18px solid #F2F2F2;
+      padding        : 0 36px;
+      display        : flex;
+      justify-content: space-between;
+
+      .myText {
+        color      : #333333;
+        font-size  : 28px;
+        font-family: PingFang-SC-Medium;
+      }
+    }
+
+    .aboutData {
+      height         : 96px;
+      line-height    : 80px;
+      text-align     : center;
+      margin         : 0 auto;
+      border-bottom  : 18px solid rgba(242, 242, 242, 1);
+      justify-content: space-between;
+
+      .quitBtn {
+        font-size  : 32px;
+        color      : #FF7847;
+        font-family: PingFang-SC-Medium;
+      }
+    }
+  }
+
+  .exit {
+    height     : 80px;
+    width      : 100%;
+    line-height: 80px;
+    padding    : 20px;
+
+    .btn {
+      height       : 80px;
+      width        : 100%;
+      line-height  : 80px;
+      color        : #fff;
+      text-align   : center;
+      border-radius: 10px;
+      border       : 0 none;
+    }
+  }
+}

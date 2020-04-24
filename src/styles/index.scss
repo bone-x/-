@@ -1,0 +1,14 @@
+// iconfont
+// @import url('https://at.alicdn.com/t/font_1131464_j60p64eltwm.css');
+@import './iconfont.scss';
+// @import 'icon-font/iconfont.scss';
+@import './reset.scss';
+@import './public.scss';
+@import './ali.scss';
+// taro-ui
+@import './taro-ui/custom-theme.scss';
+@import './taro-ui/taro-ui.scss';
+// @import "~taro-ui/dist/style/index.scss"; // 引入组件样式 - 方式二
+
+// 引入修改过后的iconfont （首页 学习 发现 我的）tabler组件专用
+@import './tabbar.scss';

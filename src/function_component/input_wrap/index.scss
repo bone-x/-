@@ -1,0 +1,14 @@
+@import '@/app.scss';
+.input_wrap {
+    height: 120px;
+    line-height: 120px;
+    vertical-align: middle;
+    font-size: 32px;
+    border-bottom: 1px solid #EDEDED;
+    input {
+        height: 120px;
+        line-height: 120px;
+    }
+    .right_side {
+    }
+}

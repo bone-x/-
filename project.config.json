@@ -1,0 +1,18 @@
+{
+	"miniprogramRoot": "dist/",
+	"projectname": "%E8%A1%8C%E5%AE%B6%E7%A7%BB%E5%8A%A8%E7%AB%AF",
+	"description": "mobile project",
+	"appid": "wx1c0c0f002fd9af3b",
+	"setting": {
+		"urlCheck": false,
+		"es6": false,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {}
+}

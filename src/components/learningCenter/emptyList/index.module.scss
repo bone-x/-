@@ -1,0 +1,36 @@
+.empty {
+  height:100%;
+  text-align: center;
+
+   .empty_img {
+     padding-top: 158px;
+     box-sizing: border-box;
+
+     & .img {
+       width: 288px;
+       height: 288px;
+     }
+   }
+
+  .empty_info {
+    font-size: 28px;
+    font-family: PingFang-SC-Regular;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    text-align: center;
+    padding-bottom: 54px;
+  }
+
+  .to_learn {
+    width: 606px;
+    height: 90px;
+    line-height: 90px;
+    background: rgba(255, 120, 71, 1);
+    border-radius: 18px;
+    font-size: 32px;
+    margin:0 auto;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+  }
+}

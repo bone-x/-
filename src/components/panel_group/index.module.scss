@@ -1,0 +1,103 @@
+.panelBox {
+    width: 100%;
+    height: auto;
+    padding: 45px 36px;
+
+    .panelTitle {
+        height: 34px;
+        font-size: 36px;
+        line-height: 36px;
+        font-weight: 500;
+        color: rgba(51, 51, 51, 1);
+        margin-bottom: 12px;
+    }
+
+    .panelList {
+        margin-top: 12px;
+
+        :global {
+            .list_car {
+                padding-left: 0;
+                padding-right: 0;
+                .img{
+                    padding-left: 0;
+                }
+            }
+        }
+
+        .price {
+            font-size: 22px;
+            color: rgba(153, 153, 153, 1);
+
+            .OnSalse {
+                text-decoration: line-through;
+                padding-left: 18px;
+            }
+
+            .goGroup {
+                background: rgba(255, 120, 71, 0.12);
+                border-radius: 27px;
+                padding: 8px 22px;
+                color: rgba(255, 120, 71, 1);
+                position: absolute;
+                right: 20px;
+                bottom: 30px;
+                font-size: 26px;
+                z-index: 99;
+            }
+
+        }
+    }
+
+    .jumpBox {
+        width: 100%;
+        font-size: 28px;
+        font-family: PingFang-SC-Regular;
+        font-weight: 400;
+        color: rgba(255, 90, 31, 1);
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .noCourse {
+        width: 100%;
+        height: auto;
+        text-align: center;
+
+        .noImage {
+            width: 288px;
+            // height: 288px;
+            margin-top: 150px;
+        }
+
+        .noContent {
+            // margin-top: 13px;
+            margin-bottom: 200px;
+
+            .noContent1 {
+                font-size: 28px;
+                font-family: PingFang-SC-Regular;
+                font-weight: 400;
+                color: rgba(60, 61, 65, 1);
+            }
+
+            .noContent2 {
+                font-size: 22px;
+                font-family: PingFang-SC-Regular;
+                font-weight: 400;
+                text-decoration: underline;
+                color: rgba(255, 90, 31, 1);
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .shoping {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        height: 100px;
+        position: relative;
+        margin-top: 12px;
+    }
+}

@@ -1,0 +1,165 @@
+.newsDetail {
+    $title-color: #333333;
+    $desc-color: #666666;
+    $info-color: #999999;
+    $border-line-color: #ededed;
+    $active-color: #FF5A1F;
+
+    font-size: 32px;
+    color: $desc-color;
+    padding:  47px 36px 10px;
+    .title {
+        font-size: 42px;
+        color: $title-color;
+    }
+
+    .newsInfo {
+        font-size:22px;
+        color: $desc-color;
+        .author {
+            margin-right: 48px;
+        }
+        .time {
+            margin-left: 20px;
+            color: $info-color;
+        }
+
+        .viewNum {
+            // margin-left: 39px;
+            float: right;
+            font-size: 22px;
+            color: $info-color;
+            .icon {
+                font-size: 22px;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .contentBox {
+        margin-top: 30px;
+        width: 100%;
+        overflow: hidden;
+        white-space: normal;
+        pre, code {
+            white-space: normal;
+        }
+        img {
+            max-width: 100%; 
+        }
+    }
+
+    // 点赞
+    .likeBox {
+        margin-top: 60px;
+        font-size: 28px;
+        font-weight: 500;
+        text-align: center;
+        .likeBtn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 224px;
+            height: 90px;
+            vertical-align: middle;
+            text-align: center;
+            border: 1px solid #CCCCCC;
+            border-radius: 45px;
+            color: $title-color;
+        }
+        .likeIcon {
+            width: 36px;
+            height: 36px;
+            margin-right: 9px;
+        }
+        .text {
+            display: inline-block;
+        }
+        :global {
+            .liked {
+                background: $active-color;
+                color: #ffffff;
+            }
+        }
+    }
+
+    // 分享区域
+    .shareBox {
+        margin-top: 90px;
+        // 标题
+        .shareTitle {
+            text-align: center;
+            font-size: 28px;
+            &::before,
+            &::after {
+                content: "";
+                width: 100px;
+                border-top: 3px solid #CCCCCC;
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            &::before {
+                margin-right: 20px;
+            }
+
+            &::after {
+                margin-left: 20px;
+            }
+
+            .titleTextBox {
+                display: inline-block;
+                &::before,
+                &::after {
+                    content: "";
+                    width: 15px;
+                    border-top: 3px solid #CCCCCC;
+                    transform:rotate(125deg);
+                    display: inline-block;
+                    vertical-align: middle;
+                    // color: #CCCCCC;
+                }
+
+                &::before {
+                    margin-right: 40px;
+                }
+
+                &::after {
+                    margin-left: 40px;
+                }
+            }
+        }
+        // 分享icon
+        .shareList {
+            margin-top: 30px;
+            text-align: center;
+            .shareBtn {
+                display: inline-block;
+                width: 66px;
+                height: 66px;
+                line-height: 66px;
+                margin-right: 60px;
+                border-radius: 50%;
+                font-size: 34px;
+                color: #ffffff;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+            :global {
+                .wechat {
+                    background: #1BC764;
+                }
+                .qq {
+                    background: #56ADFF;
+                }
+                .wefriend {
+                    background: #2ABDB5;
+                }
+                .weibo {
+                    background: #FF6262;
+                }
+            }
+        }
+    }
+}

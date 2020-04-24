@@ -1,0 +1,411 @@
+.personalData {
+  padding-bottom: 80px;
+
+  .mine {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 30%;
+
+    .pcData {
+      width: 100%;
+      height: 88px;
+      text-align: center;
+      line-height: 88px;
+      padding: 0 42px;
+      position: relative;
+      border-bottom: 1px solid #f5f5f5;
+
+      .infoText {
+        font-size: 36px;
+        color: #333333;
+        font-family: PingFang-SC-Medium;
+      }
+    }
+
+    .order {
+      height: 132px;
+      line-height: 132px;
+      margin: 0 35px;
+      display: flex;
+      justify-content: space-between;
+
+      .dataText {
+        color: #3c3d41;
+        font-size: 28px;
+        font-family: PingFang-SC-Medium;
+      }
+
+      .emailNum {
+        font-size: 28px;
+        color: #666666;
+        font-family: PingFang-SC-Regular;
+      }
+
+      .emailNumLight {
+        font-size: 28px;
+        color: #ff7847;
+        font-family: PingFang-SC-Regular;
+      }
+
+      .iconright {
+        font-size: 28px;
+        color: #999999;
+        margin-left: 18px;
+      }
+
+      .tel {
+        color: #c8c8c8;
+        font-size: 20px;
+        font-family: PingFang-SC-Medium;
+      }
+
+      .idNum {
+        color: #666666;
+        font-size: 38px;
+        font-family: PingFang-SC-Regular;
+      }
+
+      .telNum {
+        color: #666666;
+        font-size: 28px;
+        font-family: PingFang-SC-Regular;
+        margin-right: 40px;
+      }
+
+      .avatar {
+        // width: 19%;
+        display: flex;
+      }
+    }
+
+    .orderData {
+      height: 132px;
+      line-height: 128px;
+      border-bottom: 18px solid rgba(242, 242, 242, 1);
+      padding: 0 35px;
+      display: flex;
+      justify-content: space-between;
+
+      .dataText {
+        color: #3c3d41;
+        font-size: 28px;
+        font-family: PingFang-SC-Medium;
+      }
+
+      .idFinish {
+        font-size: 28px;
+        color: #ff7847;
+        font-family: PingFang-SC-Regular;
+      }
+    }
+  }
+
+  .inputNickName {
+    padding: 44px 37px 35px 18px;
+    // background-color: #F2F2F2;
+    width: 100%;
+    height: 420px;
+
+    .nickName {
+      width: 100%;
+      height: 210px;
+      border: 0 none;
+    }
+
+    .nickNameConfirm {
+      display: flex;
+      justify-content: space-between;
+
+      .nickText {
+        font-size: 28px;
+        color: #333333;
+        font-family: PingFang-SC-Medium;
+      }
+
+      .confirmBtn {
+        width: 160px;
+        height: 52px;
+        background-color: #ff7847;
+        color: #ffffff;
+        text-align: center;
+        line-height: 52px;
+        border: 0 none;
+      }
+    }
+
+    .inputLimit {
+      color: #999999;
+      font-size: 20px;
+      font-family: PingFang-SC-Medium;
+      text-align: right;
+    }
+  }
+
+  .chooseGender {
+    font-size: 36px;
+    font-family: PingFang-SC-Regular;
+    color: #333333;
+    width: 100%;
+    height: 69px;
+    line-height: 69px;
+    margin-left: 37px;
+  }
+
+  .gender {
+    font-size: 36px;
+    font-family: PingFang-SC-Regular;
+    color: #333333;
+    width: 100%;
+    height: 72px;
+    line-height: 72px;
+    margin-left: 37px;
+  }
+
+  .takePhoto {
+    font-size: 36px;
+    font-family: PingFang-SC-Regular;
+    color: #666666;
+    width: 100%;
+    height: 96px;
+    line-height: 96px;
+    text-align: center;
+  }
+
+  .activeLight {
+    font-size: 36px;
+    font-family: PingFang-SC-Regular;
+    color: #ff7847;
+    width: 100%;
+    height: 96px;
+    line-height: 96px;
+    text-align: center;
+  }
+
+  .cancel {
+    font-size: 36px;
+    font-family: PingFang-SC-Regular;
+    color: #666666;
+    margin-top: 18px;
+    border-top: 1px solid #ededed;
+    width: 100%;
+    height: 98px;
+    line-height: 98px;
+    text-align: center;
+  }
+}
+
+.editNickNameBox {
+  padding: 24px 37px 18px 35px;
+  background-color: #fff;
+
+  .editNickNameBoxMain {
+    background-color: #f2f2f2;
+    border-radius: 6px;
+
+    .editNickNameBoxContent {
+      width: 100%;
+      height: 151px;
+      padding: 24px;
+      border: 0;
+      box-sizing: border-box;
+      background-color: #f2f2f2;
+      outline: none;
+      resize: none;
+      border-radius: 6px 6px 0 0;
+      font-size: 28px;
+      color: #333333;
+      font-family: PingFang-SC-Medium;
+    }
+
+    .editNickNameBoxTips {
+      padding-right: 15px;
+      padding-bottom: 15px;
+      font-size: 20px;
+      font-family: PingFang-SC-Medium;
+      font-weight: 500;
+      color: rgba(153, 153, 153, 1);
+      text-align: right;
+    }
+  }
+}
+
+.editNameBox {
+  padding: 24px 37px 18px 35px;
+  background-color: #fff;
+
+  .editNameBoxMain {
+    background-color: #f2f2f2;
+    border-radius: 6px;
+
+    .editNameBoxContent {
+      width: 100%;
+      height: 210px;
+      padding: 24px;
+      border: 0;
+      box-sizing: border-box;
+      background-color: #f2f2f2;
+      outline: none;
+      resize: none;
+      border-radius: 6px 6px 0 0;
+      font-size: 28px;
+      color: #333333;
+      font-family: PingFang-SC-Medium;
+    }
+
+    .editNameBoxTips {
+      padding-right: 15px;
+      padding-bottom: 15px;
+      font-size: 20px;
+      font-family: PingFang-SC-Medium;
+      font-weight: 500;
+      color: rgba(153, 153, 153, 1);
+      text-align: right;
+    }
+  }
+}
+
+.userName {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  font-size: 28px;
+  font-family: PingFang-SC-Medium;
+  padding: 0px 35px 0px 36px;
+
+  .name {
+    color: #333333;
+  }
+
+  .namebtn {
+    width: 160px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 28px;
+    background-color: #ff7847;
+    color: #ffffff;
+    border: 0 none;
+    border-radius: 6px;
+    font-family: PingFang-SC-Medium;
+  }
+}
+
+.container {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+
+  .maskDialog {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1001;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation: mask 300ms ease;
+    animation-fill-mode: forwards;
+  }
+
+  .ul {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-height: 200px;
+    padding-top: 24px;
+    z-index: 1002;
+    background-color: #fff;
+    border-radius: 18px 18px 0px 0px;
+    animation: ul 300ms ease;
+    animation-fill-mode: forwards;
+
+    .male {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 96px;
+      font-size: 36px;
+      font-family: PingFang-SC-Regular;
+      font-weight: 400;
+      color: rgba(255, 120, 71, 1);
+
+      &:active {
+        opacity: 0.6;
+      }
+    }
+
+    .female {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 96px;
+      font-size: 36px;
+      font-family: PingFang-SC-Regular;
+      font-weight: 400;
+      color: rgba(102, 102, 102, 1);
+
+      &:active {
+        opacity: 0.6;
+      }
+    }
+
+    .hiddenFileInput {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      opacity: 0;
+    }
+
+    .cancelClose {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 98px;
+      margin-top: 21px;
+      border-top: 1px solid #ededed;
+      font-size: 36px;
+      font-family: PingFang-SC-Medium;
+      font-weight: 500;
+      color: rgba(102, 102, 102, 1);
+
+      &:active {
+        opacity: 0.6;
+      }
+    }
+  }
+}
+
+@keyframes maskDialog {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0.6;
+  }
+}
+
+@keyframes ul {
+  from {
+    bottom: -330px;
+  }
+
+  to {
+    bottom: 0;
+  }
+}

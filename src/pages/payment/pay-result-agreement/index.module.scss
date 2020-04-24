@@ -1,0 +1,29 @@
+@import '@/styles/variable.scss';
+.wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.scrollView {
+  flex: 1;
+  padding: 36px;
+  color: $text-color;
+  font-size: 28px;
+  .cell {
+    margin-bottom: 50px;
+  }
+  .item {
+    display: block;
+  }
+  .itemLi {
+    display: block;
+    text-indent: 20px;
+  }
+}
+.footer {
+  height: 98px;
+  .button {
+    height: 100%;
+  }
+}

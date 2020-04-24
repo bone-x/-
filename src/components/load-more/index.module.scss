@@ -1,0 +1,24 @@
+@import '@/styles/variable.scss';
+.loadMore{
+    margin-top: 10px;
+    width: 100%;
+    font-size:26px;
+    font-weight:400;
+    color:rgba(204,204,204,1);
+    height: 60px;
+    text-align: center;
+    .loadBox{
+        display: flex;
+        justify-content: center;
+        align-items: center
+    
+    }
+    .loadImg{
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    .loadContent{
+        margin-top: 10px;
+    }
+}

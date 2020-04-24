@@ -1,0 +1,305 @@
+.wrapBox {
+  padding: 90px 0;
+  .msgBoxSpan{
+    color: #FF7847;
+  }
+  .topNavBox {
+    height: 90px;
+    width: 100%;
+    padding: 0 36px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 899;
+    box-shadow: 4rpx 0 20rpx #eee;
+
+    .logoBox {
+      width: 122px;
+      height: 47px;
+    }
+
+    .saerchBox {
+      width: 323px;
+      height: 60px;
+      background: rgba(250, 250, 250, 1);
+      border: 1px solid rgba(232, 234, 235, 1);
+      border-radius: 30px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      :global {
+        .iconfont{
+          font-size: 32px;
+          color: #999;
+          margin: 0 22px 0 36px;
+        }
+      }
+  
+      .inputBox {
+        width: 200px;
+        overflow: hidden;
+        font-size: 24px;
+        color: #999;
+      }
+    }
+    .actionBtn {
+      width: 130px;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+      background: #FF7847;
+      border-radius: 30px;
+      color: #fff;
+      font-size: 24px;
+    }
+  }
+
+
+  :global {
+    .at-tabs__item-underline {
+      height: 0;
+    }
+  
+    .at-tabs__item {
+      font-size: 30px;
+      padding: 28px 0;
+      margin: 0 36px;
+      &:last-child{
+        padding-right: 100px;
+      }
+    }
+  
+    .at-tabs__header {
+      // border-bottom: 20px solid rgba(242,242,242,1);
+      // width: 622px;
+      padding: 0 0 0 36px;
+      box-sizing: border-box;
+      text-align: left;
+    }
+  
+    .at-tabs-pane {
+      background: #fff;
+    }
+  
+  }
+}
+
+
+.swiperBox {
+  background: #fff;
+  width: 100%;
+  .swiperItem {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    .imgBox {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: 50% 50%;
+    }
+  }
+}
+
+
+.classifyBox {
+  display: flex;
+  flex-wrap: wrap;
+  background: #fff;
+  border-bottom: 18px solid #F2F2F2;
+  padding: 20px;
+
+  .classifyItem {
+    width: 25%;
+    height: 106px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    :global {
+
+      .icon {
+        width: 34px;
+        height: 34px;
+        margin-bottom: 20px;
+      }
+
+      .text {
+        font-size: 24px;
+        color: #191919;
+      }
+    }
+
+  }
+}
+
+
+
+
+.adviseBox {
+  box-sizing: border-box;
+  background: #fff;
+  position: relative;
+  border-bottom: 18px solid #F2F2F2;
+
+  .adviseNavIcon {
+    width: 128px;
+    height: 96px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgba(255, 255, 255), #fff);
+
+    .icon {
+      font-size: 36px;
+    }
+  }
+
+
+  .adviseContent {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 6px 36px 0 36px;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+    .adviseItem {
+      width: 330px;
+      margin: 24px 0;
+
+
+      .adviseCover {
+        width: 100%;
+        height: 186px;
+        border-radius: 6px;
+      }
+
+      .adviseTitle {
+        font-size: 26px;
+        // line-height: 20px;
+        height:70px;
+        white-space: pre-line;
+        text-overflow: -o-ellipsis-lastline;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        align-content: center;
+        margin: 14px 0;
+      }
+
+      .adviseInfo {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+
+        .adviseAuthor,
+        .adviseRead {
+          font-size: 22px;
+          color: #666;
+          margin-right: 24px;
+        }
+      }
+
+      .advisePriceBox {
+        display: flex;
+        align-items: center;
+
+        :global {
+          .icon {
+            width: 54px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            font-size: 18px;
+            color: #FF5A1F;
+            background: rgba(255, 231, 221, 1);
+            border: 1px solid rgba(235, 97, 0, 1);
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-right: 22px;
+          }
+
+          .price {
+            color: #666;
+            font-size: 24px;
+            margin-right: 13px;
+          }
+
+          .retail {
+            font-size: 18px;
+            text-decoration: line-through;
+          }
+        }
+
+
+
+      }
+    }
+  }
+
+}
+
+
+.interestBox {
+  height: 100%;
+  :global {
+
+    // 以下是 评论组件 样式改写
+    .at-tag {
+      font-size: 26px;
+      background: #fff;
+      line-height: 1;
+      height: auto;
+      padding: 20px 24px;
+      margin: 0 22px 30px 0;
+      box-sizing: border-box;
+      border-radius: 6px;
+    }
+
+    .at-tag--active {
+      background: #FF7847;
+      color: #fff;
+    }
+
+    .at-button--primary {
+      height: 100%;
+      font-size: 32px;
+      line-height: 100px;
+      border: none;
+      border-radius: 0;
+    }
+  }
+}
+
+
+.fastClickBox {
+  box-sizing: border-box;
+  background: #fff;
+  position: relative;
+  border-bottom: 18px solid #F2F2F2;
+}
+
+.pointBox {
+  box-sizing: border-box;
+  background: #fff;
+  position: relative;
+  border-bottom: 18px solid #F2F2F2;
+}
+
+.recommendationBox {
+  box-sizing: border-box;
+  background: #fff;
+  position: relative;
+  border-bottom: 18px solid #F2F2F2;
+}

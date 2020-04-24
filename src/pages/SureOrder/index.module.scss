@@ -1,0 +1,81 @@
+.sureOrder{
+    background:rgba(237,237,237,1);
+    height:100vh;
+    & .header{
+        position:fixed;
+        top:0;
+        left:0;
+        width:100%;
+        background:#ffffff;
+        z-index: 100;
+    }
+    .body{
+        padding-top:97px;
+        padding-bottom:98px;
+        .list{
+            .listGoods{
+                margin-bottom:25px;
+                .list_car{
+                    padding-bottom:0;
+                }
+            }
+            .activeName{
+                font-size:18px;
+                margin-top:18px;
+                .top{
+                    & .active{
+                        padding:6px 20px;
+                        background:rgba(255,231,221,1);
+                        border:1px solid rgba(235,97,0,1);
+                        border-radius:4px;
+                        color:rgba(255,90,31,1);
+                        margin:0 22px 0 0;  
+                    }
+                    & .status{
+                        font-size:22px;
+                        color:rgba(102,102,102,1);                                         
+                    }
+                }
+                .bottom{
+                    margin-top:10px;
+                    & .real_price{
+                        color:rgba(51,51,51,1);
+                       
+                        font-size:24px;
+                        padding-right:20px;
+                    }
+                    & .orginPrice{
+                        color:rgba(153,153,153,1);
+                        font-size:18px;
+                        text-decoration:line-through;
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        position:fixed;
+        bottom:0;
+        left:0;
+        width:100%;
+        z-index:100;
+        background:#fff;
+
+    }
+    .detail{
+        background:#fff;
+        display:flex;
+        color:rgba(51,51,51,1);
+        font-size:22px;
+        justify-content:space-between;
+        align-items:center;
+        padding:15px 36px;
+        padding-top:0;
+        .real_pay{
+            .price{
+                font-size:32px;
+                color:rgba(51,51,51,1);
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+
+.downLoad{
+    height:100vh;
+    width:100%;
+    // background:url('@/assets/weapp-download-bg.png');
+   
+    .btn{
+        position: absolute;
+        bottom:200px;
+        margin:0 auto;
+        width:100%;
+        text-align:center;
+       
+        .txt{
+            display:inline-block;
+            width:80%;
+            border-radius:18px;
+            padding:25px 0;
+            color:#fff;
+            font-size:28px;
+            background:linear-gradient(90deg,rgba(255,135,51,1) 0%,rgba(255,97,39,1) 100%);
+        }
+    }
+}

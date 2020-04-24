@@ -1,0 +1,41 @@
+@import '@/styles/variable.scss';
+@import '@/styles/mixins.scss';
+.wrap {
+  padding-top: 62px;
+}
+.imageWrap {
+  text-align: center;
+}
+.image {
+  height: 260px;
+  width: 260px;
+}
+
+.successPay {
+  text-align: center;
+  color: $primary-color;
+  font-size: 36px;
+  font-family: PingFang-SC-Medium;
+  padding-bottom: 46px;
+  margin: 0 36px;
+  border-bottom: 1px solid $border-color;
+}
+
+.detail {
+  margin: 40px 44px 0 44px;
+  .item {
+    height: 50px;
+    line-height: 50px;
+    font-size: 26px;
+    color: $text-color-light;
+    @include text-ellipsis();
+  }
+}
+
+.buttonWrap {
+  margin-top: 100px;
+}
+.button {
+  height: 90px;
+  margin: 0 72px;
+}

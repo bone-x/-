@@ -1,0 +1,97 @@
+@import '@/styles/variable.scss';
+
+.box {
+  background-color: $white;
+
+  .reviewList {
+    width: 100%;
+    background-color: $white;
+    padding: 0 34px;
+    box-sizing: border-box;
+
+    .reviewBox {
+      width: 100%;
+
+      .reviewAvatar {
+        width: 72px;
+        height: 72px;
+        border-radius: 36px;
+        overflow: hidden;
+        margin: 46px 30px 0 0;
+        float: left;
+
+        .img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .reviewUserBox {
+        display: inline-block;
+        width: 570px;
+        margin-top: 50px;
+
+        .reviewBoxTop {
+          overflow: hidden;
+          line-height: 1;
+          margin-bottom: 12px;
+
+          .reviewUserName {
+            font-size: 32px;
+            color: $text-color;
+            float: left;
+            line-height: 36px;
+          }
+
+          .reviewUserStar {
+            float: right;
+
+            .reviewUserStarIcon {
+              font-size: 32px;
+              color: #FFBD00;
+              margin-left: 10px;
+            }
+
+            .reviewUserStarIconNo {
+              font-size: 32px;
+              color: #EDEDED;
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+
+      .reviewBoxMid {
+        font-size: 22px;
+        color: $text-color-lighter;
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 22px;
+
+        .reviewBoxMidStudy {
+          float: left;
+        }
+
+        .reviewBoxMidTime {
+          float: right;
+        }
+      }
+
+      .reviewBoxText {
+        word-wrap: break-word;
+        white-space: normal;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        text-align: justify;
+        font-size: 28px;
+        color: $text-color;
+      }
+    }
+
+    .noMore {
+      text-align: center;
+      line-height: 150px;
+      font-size: 30px;
+    }
+  }
+}

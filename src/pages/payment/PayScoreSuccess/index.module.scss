@@ -1,0 +1,74 @@
+@import '@/styles/variable.scss';
+@import '@/styles/mixins.scss';
+
+.PayScoreSuccess {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #F2F2F2;
+  padding-top:97px;
+}
+.submitOrder {
+  flex: 1;
+}
+.order {
+  font-size: 28px;
+  color: $text-color;
+  padding-left: 36px;
+  padding-right: 36px;
+  height: 96px;
+  line-height: 96px;
+  background-color: $white;
+  @include text-ellipsis();
+}
+.payOption {
+  margin-top: 18px;
+  font-size: 28px;
+  padding:25px 36px;
+  background-color: $white;
+ .score{
+    display:flex;
+    justify-content:space-between;
+    padding:10px 0;
+    .count{
+        color:rgba(255,120,71,1);
+        padding-right:10px;
+    }
+ }
+}
+.payType {
+  height: 96px;
+  line-height: 96px;
+  border-bottom: 1px solid $border-color;
+}
+.submitWrap {
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: center;
+  text-align: center;
+}
+.submit {
+  width: 534px;
+  height: 96px;
+  margin: 55px auto 29px;
+}
+.tips {
+  font-size: 22px;
+}
+.tipsText {
+  color: $text-color-lighter;
+}
+.tipsAgreement {
+  color: $text-color;
+}
+.customer {
+  width: 100%;
+  font-size: 22px;
+  color: $text-color-lighter;
+  position: absolute;
+  bottom: 50px;
+  text-align: center;
+}
+.customerLink {
+  color: $primary-color;
+}

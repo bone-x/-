@@ -1,0 +1,38 @@
+.nullCar{
+     height:100vh;
+     background:#fff;
+   .car_img{
+        text-align:center;
+        padding-top:308px;
+        box-sizing:border-box;
+        & .img{
+            width:288px;
+            height:288px;
+        }
+   }
+   .Myname{
+        font-size:28px;
+        text-align:center;
+        font-weight:500;
+        color:rgba(60,61,65,1);
+        padding-bottom:20px;
+   }
+   .txt{
+        text-align:center;
+        font-size:22px;
+        color:rgba(108,113,121,1);
+   }
+   .goIndex{
+        text-align:center;
+        font-size:28px;
+        color:rgba(255,90,31,1);
+        margin-top:48px;
+   }
+//    & .foot{
+//         position:fixed;
+//         bottom:0;
+//         left:0;
+//         width:100%;
+//         background:#ffffff;
+//     }
+}

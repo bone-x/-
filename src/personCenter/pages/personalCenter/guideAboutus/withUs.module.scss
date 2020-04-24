@@ -1,0 +1,44 @@
+.content {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+   .title {
+     position: relative;
+     text-align: center;
+     font-size: 34px;
+     color:#333;
+     width: 100%;
+     height: 88px;
+     line-height: 88px;
+     border-bottom: 2px solid #EDEDED;
+   }
+   .richtext {
+       margin-top:45px;
+       margin-bottom: 90px;
+   }
+   .div {
+    color: #333;
+    font-size: 28px;
+    margin: 46px 184px 0 36px;
+    .ways {
+        margin-bottom: 44px;
+       }
+    .way {
+        line-height: 30px;
+    }
+    .line {
+        line-height: 30px;
+        margin-left: 135px;
+    }
+   }
+   .bot {
+       color: #333;
+       font-size: 28px;
+       margin: 44px 44px 0 36px;
+   }
+   :global {
+       .red-text {
+           color:red;
+       }
+   }
+}

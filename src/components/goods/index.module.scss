@@ -1,0 +1,78 @@
+@import '@/styles/variable.scss';
+  .goodsName {
+    width: 100%;
+    padding: 48px 35px;
+    box-sizing: border-box;
+    background-color: #fff;
+
+    .imgBox {
+      width: 300px;
+      height: 168px;
+      float: left;
+      margin-right: 16px;
+
+      .img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .textBox {
+      font-size: 26px;
+
+      .courseName {
+        display: block;
+      }
+
+      .gradeType {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      .valid{
+        font-size: 22px;
+        display: block;
+        color: #666666FF;
+      }
+
+      .offeredPar {
+        .pintuan{
+          color: #FF7847FF;
+          background-color: #FFE7DDFF;
+          border: 2px solid #FF7847FF;
+          font-size: 18px;
+          border-radius: 5px;
+          padding: 0 5px;
+          margin-right: 22px;
+
+        }
+        .par {
+          font-size: 18px;
+          position: relative;
+          color: #999999FF;
+          margin-left: 12px;
+
+          &::before {
+            content: "";
+            position: absolute;
+            height: 1PX;
+            width: 100%;
+            background-color: #666;
+            bottom: 12px;
+          }
+        }
+      }
+    }
+  }
+.clearfix:after {
+  content: ".";
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  display: block;
+}
+
+.clearfix {
+  zoom: 1;
+}

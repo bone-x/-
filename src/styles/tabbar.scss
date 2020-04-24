@@ -1,0 +1,64 @@
+.global-tabbar-box {
+  height: auto !important;
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  align-items: center;
+  bottom: 0;
+  z-index: 99;
+  font-size: 18px;
+  color: #B8B8B8;
+  box-shadow:4rpx 0 20rpx #eee;
+  background: #fff;
+
+  .iconfont {
+    color: #B8B8B8;
+    // margin-bottom: 20px;
+  }
+
+  .at-tab-bar {
+    padding-top: 0;
+    .at-tab-bar__title{
+      margin-top: 10px;
+    }
+
+    .at-tab-bar__item--active {
+      .iconfont {
+        color: inherit;
+      }
+    }
+  }
+
+  .iconfont-hangjia-moren:before {
+    content: "\e604";
+  }
+
+  .iconfont-hangjia-xuanzhong:before {
+    content: "\e60e";
+  }
+
+  .iconfont-xuexi-moren:before {
+    content: "\e615";
+  }
+
+  .iconfont-xuexi-xuanzhong:before {
+    content: "\e60c";
+  }
+
+  .iconfont-faxian-moren:before {
+    content: "\e619";
+  }
+
+  .iconfont-faxian-xuanzhong:before {
+    content: "\e61a";
+  }
+
+
+  .iconfont-wode-moren:before {
+    content: "\e609";
+  }
+
+  .iconfont-wode-xuanzhong:before {
+    content: "\e60b";
+  }
+}

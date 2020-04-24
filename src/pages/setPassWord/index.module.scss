@@ -1,0 +1,95 @@
+@import '@/app.scss';
+
+.login {
+    padding   : 60px 73px 0;
+    height    : 100%;
+    background: #fff;
+
+    .title {
+        margin    : 0 0 30px;
+        text-align: center;
+
+        .icon {
+            color    : $theme;
+            font-size: 53px;
+        }
+    }
+
+    .input_wrap {
+        height        : 120px;
+        line-height   : 120px;
+        vertical-align: middle;
+        font-size     : 32px;
+        border-bottom : 1px solid #EDEDED;
+
+        input {
+            height     : 120px;
+            line-height: 120px;
+        }
+
+        .right_side {
+            .taro_img {
+                width        : 160px;
+                height       : 60px;
+                display      : block;
+                border-radius: 5px;
+            }
+
+            .button_send {
+                font-size    : 26px;
+                color        : #999;
+                width        : 160px;
+                height       : 60px;
+                line-height  : 60px;
+                background   : #EDEDED;
+                border-radius: 30px;
+                text-align   : center;
+
+                &.avtive {
+                    background: $theme;
+                    color     : #fff;
+                }
+            }
+        }
+    }
+
+    .button_sure {
+        margin-top   : 61px;
+        background   : #EDEDED;
+        color        : #fff;
+        text-align   : center;
+        width        : 606px;
+        height       : 90px;
+        line-height  : 90px;
+        font-size    : 32px;
+        font-weight  : 500;
+        border-radius: 18px;
+        margin-bottom: 20px;
+        border       : 0px;
+
+        &.actived {
+            background: $theme;
+            color     : #fff;
+        }
+    }
+
+    .button_register {
+        border-radius: 18px;
+        border       : 1px solid #ff7847;
+        color        : #ff7847;
+    }
+    .button_forget_password{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .subscript {
+        color    : #666;
+        font-size: 30px;
+        &.rightSide {
+            float: right;
+        }
+        &.leftSide {
+            float: left;
+        }
+    }
+}

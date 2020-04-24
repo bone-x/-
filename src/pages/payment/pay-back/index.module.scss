@@ -1,0 +1,20 @@
+@import '@/styles/variable.scss';
+.inner {
+  height: 400px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  margin-top: -200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.text {
+  font-size: 28px;
+  color: $text-color;
+}
+.button {
+  width: 600px;
+  height: 90px;
+}

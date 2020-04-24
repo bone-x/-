@@ -1,0 +1,116 @@
+@import '@/styles/variable.scss';
+
+.introductBox {
+  width: 100%;
+
+  // 讲师介绍
+  .courseIntroductionLecturer {
+    width: 100%;
+    background-color: $white;
+    margin-bottom: 18px;
+
+    .lecturer {
+      font-size: 36px;
+      color: $text-color;
+      line-height: 124px;
+      padding: 0 34px 0 34px;
+      box-sizing: border-box;
+      width: 100%;
+    }
+
+    .lecturerIntroBox {
+      padding: 0 34px 60px 34px;
+      box-sizing: border-box;
+      width: 100%;
+
+      .avatar {
+        display: block;
+        float: left;
+        width: 72px;
+        height: 72px;
+        border-radius: 36px;
+        overflow: hidden;
+        position: relative;
+        .avatarImg{
+          width: 100%;
+          height: 100%;
+          position: absolute;
+        }
+      }
+
+      .lecturerIntro {
+        display: inline-block;
+        width: 558px;
+        margin-left: 30px;
+
+        .lecturerName {
+          display: block;
+          font-size: 32px;
+          color: #333;
+          margin-bottom: 20px;
+        }
+
+        .lecturerText {
+          display: block;
+          font-size: 28px;
+          color: $text-color-light;
+          word-wrap: break-word;
+          white-space: normal;
+          text-overflow: ellipsis;
+          text-align: justify;
+        }
+      }
+    }
+
+    .more {
+      width: 100%;
+      height: 96px;
+      text-align: center;
+      line-height: 96px;
+      font-size: 36px;
+      border-top: 1px solid #EDEDED;
+      color: rgba(51, 51, 51, 1);
+
+      .bottomIcon {
+        font-size: 28px;
+        margin-left: 10px;
+      }
+    }
+  }
+
+  // 商品介绍
+  .courseIntroductionGoods {
+    background-color: $white;
+    padding: 30px 34px;
+    box-sizing: border-box;
+
+    .goodsIntro {
+      font-size: 36px;
+    }
+
+    .goodsText {
+      display: block;
+      font-size: 28px;
+      color: $text-color-light;
+      word-wrap: break-word;
+      white-space: normal;
+      text-overflow: ellipsis;
+      text-align: justify;
+      line-height: 1.5;
+      div,
+      p,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      img,
+      span,
+      ul,
+      li {
+        max-width: 100%;
+      }
+    }
+  }
+}

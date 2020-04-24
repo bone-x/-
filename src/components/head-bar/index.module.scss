@@ -1,0 +1,28 @@
+@import '@/styles/variable.scss';
+$font-title: 36px;
+.headBar {
+  color: $text-color;
+  font-size: $font-title;
+  height: 88px;
+  position: relative;
+  background-color: $white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid $border-color;
+}
+.left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 88px;
+  line-height: 88px;
+  padding-left: 40px;
+}
+.backIcon {
+  font-size: $font-title;
+}
+.title {
+  font-weight: 500;
+}

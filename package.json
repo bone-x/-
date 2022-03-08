@@ -44,7 +44,7 @@
     "redux-thunk": "^2.3.0",
     "supports-color": "^6.1.0",
     "taro-ui": "^2.0.2",
-    "urijs": "^1.19.1"
+    "urijs": "^1.19.10"
   },
   "devDependencies": {
     "@tarojs/plugin-babel": "1.2.26",
